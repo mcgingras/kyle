@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Mono;
+    src: url('../fonts/mono_pro.otf');
+}
+
+@font-face {
+    font-family: APBold;
+    src: url('../fonts/apercu_bold_pro.otf');
+}
+
+@font-face {
+    font-family: AP;
+    src: url('../fonts/apercu_regular_pro.otf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #F6FFF8;
+  color: #354037;
+  text-align: left;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.name{
+  font-family: 'APBold';
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.links{
+  margin-bottom: 30px;
+}
+
+.links a{
+  text-decoration: none;
+  font-family: 'Mono';
+  color: inherit;
+  font-size: 36px;
+}
