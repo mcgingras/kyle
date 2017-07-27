@@ -48,4 +48,9 @@ body{
   font-family: 'Mono';
   color: inherit;
   font-size: 36px;
+  transition: color 300ms;
+}
+
+.links a:hover{
+  color: #A6FFBF;
 }
