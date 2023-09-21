@@ -14,20 +14,42 @@ body {
   max-width: 800px;
 }
 
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 16px;
+  }
+}
+
 .red {
   color: red;
 }
 
 .green {
-  color: limegreen;
+  color: green;
 }
 
 .purple {
-  color: violet;
+  color: purple;
 }
 
 .blue {
   color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.indigo {
+  color: indigo;
+}
+
+.fuchsia {
+  color: fuchsia;
+}
+
+.orange {
+  color: orange;
 }
 
 section {
