@@ -1,56 +1,43 @@
-@font-face {
-    font-family: Mono;
-    src: url('../fonts/mono_pro.otf');
-}
-
-@font-face {
-    font-family: APBold;
-    src: url('../fonts/apercu_bold_pro.otf');
-}
-
-@font-face {
-    font-family: AP;
-    src: url('../fonts/apercu_regular_pro.otf');
-}
-
-*{
+* {
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 
-body{
-  background-color: #F6FFF8;
-  color: #354037;
+body {
   text-align: left;
 }
 
-.container{
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+.container {
+  margin: 32px;
+  max-width: 800px;
 }
 
-.name{
-  font-family: 'APBold';
-  font-size: 64px;
-  margin-bottom: 20px;
+.red {
+  color: red;
 }
 
-.links{
-  margin-bottom: 30px;
+.green {
+  color: green;
 }
 
-.links a{
-  text-decoration: none;
-  font-family: 'Mono';
+.purple {
+  color: purple;
+}
+
+.blue {
+  color: blue;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+header {
+  font-style: italic;
+}
+
+a {
   color: inherit;
-  font-size: 36px;
-  transition: color 300ms;
-}
-
-.links a:hover{
-  color: #A6FFBF;
 }
